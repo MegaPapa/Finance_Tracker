@@ -1,24 +1,22 @@
-<%@ page import="main.java.com.net.nhefner.Stock" %>
-<%@ page import="main.java.com.net.nhefner.StockFetcher" %>
 <%@ page import="main.java.com.net.services.TemplateLoader" %><%--
   Created by IntelliJ IDEA.
   User: Max
-  Date: 26.11.2016
-  Time: 16:02
+  Date: 29.11.2016
+  Time: 19:42
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<% out.println(TemplateLoader.loadTemplate("tracking_head")); %>
+<% out.println(TemplateLoader.loadTemplate("head")); %>
 <body>
 
 <% out.println(TemplateLoader.loadTemplate("site_navbar")); %>
 
-<% out.println(TemplateLoader.loadTemplate("tracking_body")); %>
-
-<% out.println(TemplateLoader.loadTemplate("moving_text")); %>
+<% out.println(TemplateLoader.loadTemplate("main_body")); %>
 
 <% out.println(TemplateLoader.loadTemplate("footer")); %>
+
+<% out.println(TemplateLoader.loadTemplate("ajax_scripts")); %>
 
 </body>
 </html>

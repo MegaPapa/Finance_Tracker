@@ -8,7 +8,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <p class="navbar-brand" href="index" style="color: white">Finance Tracker</a>
+                <p class="navbar-brand" href="index" style="color: white"><a href="/home" style="color: white">Finance Tracker</a></p>
             </div
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">

@@ -1,4 +1,4 @@
-<%@ page import="main.java.com.net.services.TemplateLoader" %><%--
+<%--
   Created by IntelliJ IDEA.
   User: Max
   Date: 26.11.2016
@@ -7,16 +7,10 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <% out.println(TemplateLoader.loadTemplate("head")); %>
+<title>Finance Tracker</title>
   <body>
 
-  <% out.println(TemplateLoader.loadTemplate("site_navbar")); %>
-
-  <% out.println(TemplateLoader.loadTemplate("main_body")); %>
-
-  <% out.println(TemplateLoader.loadTemplate("footer")); %>
-
-  <% out.println(TemplateLoader.loadTemplate("ajax_scripts")); %>
+  <% response.sendRedirect("/home");%>
 
   </body>
 </html>

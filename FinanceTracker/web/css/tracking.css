@@ -1,0 +1,14 @@
+.tracking-page {
+    background-image: url(../img/tracking-image.jpg);
+    height: 70%;
+    width: 100%;
+}
+
+.text {
+    text-align:  center;
+}
+
+.center-text {
+    font-weight: bolder;
+
+}

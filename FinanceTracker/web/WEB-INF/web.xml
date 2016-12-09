@@ -16,6 +16,11 @@
 
     <servlet-mapping>
         <servlet-name>SiteController</servlet-name>>
+        <url-pattern>/home</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>SiteController</servlet-name>>
         <url-pattern>/about</url-pattern>
     </servlet-mapping>
 

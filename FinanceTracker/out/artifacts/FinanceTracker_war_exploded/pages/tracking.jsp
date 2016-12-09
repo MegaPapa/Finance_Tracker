@@ -1,5 +1,6 @@
 <%@ page import="main.java.com.net.nhefner.Stock" %>
-<%@ page import="main.java.com.net.nhefner.StockFetcher" %><%--
+<%@ page import="main.java.com.net.nhefner.StockFetcher" %>
+<%@ page import="main.java.com.net.services.TemplateLoader" %><%--
   Created by IntelliJ IDEA.
   User: Max
   Date: 26.11.2016
@@ -8,10 +9,16 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<head>
-    <title>Finance Tracking</title>
-</head>
+<% out.println(TemplateLoader.loadTemplate("tracking_head")); %>
 <body>
-    Taks taks taks, shto tut u nas, memi memchiki memasi - ahahahahaha, nakanecta
+
+<% out.println(TemplateLoader.loadTemplate("site_navbar")); %>
+
+<% out.println(TemplateLoader.loadTemplate("tracking_body")); %>
+
+<% out.println(TemplateLoader.loadTemplate("moving_text")); %>
+
+<% out.println(TemplateLoader.loadTemplate("footer")); %>
+
 </body>
 </html>
